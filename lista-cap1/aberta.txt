@@ -1,0 +1,72 @@
+5 - está faltando o #include <stdio.h>,o #include <stdib.h>, o int antes do main, o return 0; para finalizar o programa
+
+6 - main()
+{
+int a=1; b=2; c=3:
+printf("0s números são: %d%d%d\n, a, b, c, d);
+system("pause");
+}
+
+falta o int antes do main, o #include <stdio.h>,o #include <stdib.h>,o int antes da main, tem mais valores do que %d e falta o return 0; no final
+
+7 - a) printf("\n\tBom dia! Shirley.");
+Bom dia! Shirley.
+b) printf("Você já tomou café? \n");
+Você já tomou café?
+c) printf("\n\nA solução não existe!\nNão insista.");
+A solução não existe!
+Não insista.
+d) printf("Duas\tlinhas\tde\tsaída\nou\tuma?");
+Duas     linhas      de      saída
+ou     uma?
+e) printf("%s\n%s\n%s\n", "um", "dois", "três");
+um
+dois
+três
+8 - saidas:
+"Primeiro programa"Pressione qualquer tecla para continuar. . .
+9- saida:
+"Primeiro programaPressione qualquer tecla para continuar. . .
+
+```
+Quando usamos caracteres especiais, como '\n', '\t' e '\"', o compilador primeiro interpreta as sequências de escape e depois passa o valor resultante para %c.
+```
+
+10- letra B, o C é case sensitive
+
+11-
+Constante Classificação (Tipo de Constante) Tipo Base em C
+\r [ escape ] [ int ]
+2130 [ inteiro decimal ] [ int ]
+-123 [inteiro decimal ] [ int ]
+33.28 [ ponto flutuante ] [ float ]
+0XFA [ (hexadecimal) ] [ int ]
+0101 [inteiro decimal(binario)  ] [ int ]
+2.0e30 [ ponto flutuante ] [ double ]
+\xDC [ hexadecimal ] [ int ]
+'\"' [ escape ] [int ]
+'\\' [ escape] [ int]
+'F' [ caractere ] [ char ]
+0 [ inteiro decimal ] [ int ]
+'\0' [ octal] [ int]
+"F" [string ] [ char ]
+-4567.89 [ ponto flutuante ] [ float ]
+12 -
+a) int a; [ Correto  ]
+b) float b; [ Correto  ]
+c) double float c; [ Incorreto ] [ uma variavel só pode ter um tipo ]
+d) unsigned char d; [ Correto ]
+e) unsigned e; [ Correto ]
+f) long float f; [ Incorreto ] [ long não pode ser usado com float; para maior precisão usa-se long double. ]
+g) long g; [ Correto]
+h) long double h; [ Correto ]
+
+13- letra C
+
+14- letra A
+
+15- letra C
+
+16- letra C
+
+17- letra C
