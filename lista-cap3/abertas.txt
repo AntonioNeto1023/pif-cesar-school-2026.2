@@ -1,0 +1,85 @@
+1 - 
+
+a) O while testa a condição antes de executar o bloco, podendo executar zero vezes. O do-while testa a condição depois, executando pelo menos uma vez.
+
+b) O for é mais indicado quando sabemos quantas vezes o laço irá repetir. O while é usado quando a repetição depende de uma condição. O do-while é muito utilizado em menus e situações que precisam executar pelo menos uma vez.
+
+c) O comando "while(condicao);" não gera erro de compilação. É um erro de lógica, pois cria um laço com corpo vazio. Se a condição for sempre verdadeira, o programa ficará em loop infinito.
+
+2 -
+
+a) O erro acontece porque a variável soma foi declarada dentro do for e não existe fora dele.
+
+b) Mesmo colocando o printf dentro do for, o resultado estaria errado porque a variável soma é criada novamente com valor zero a cada repetição.
+
+c) Código corrigido:
+
+int soma = 0;
+
+for(i = 1; i < 10; i++) {
+soma += i * i;
+}
+
+printf("Soma final = %d", soma);
+
+Escopo é a região do programa onde a variável pode ser usada. Variáveis declaradas dentro de um bloco só existem dentro dele.
+
+
+
+3 -
+
+a) A saída do trecho A é:
+
+36    18    9    4    2    1
+
+b) O trecho B lê caracteres até que seja digitado X. A expressão "ch + 1" imprime o próximo caractere da tabela ASCII. Os parênteses são necessários para realizar a atribuição antes da comparação.
+
+c) O laço infinito pode ser interrompido usando o comando break ou return.
+
+4 -
+a) O break encerra imediatamente o laço em que está.
+
+b) O continue pula o restante da repetição atual e passa para a próxima. No for, o incremento é executado logo após o continue.
+
+c) Em laços aninhados, o break interrompe apenas o laço mais interno.
+
+5 -
+
+a) O laço executa 5 vezes.
+
+b) Saída:
+
+i = 0, j = 10 | soma = 10
+i = 1, j = 9 | soma = 10
+i = 2, j = 8 | soma = 10
+i = 3, j = 7 | soma = 10
+i = 4, j = 6 | soma = 10
+
+c) Utilizando while:
+
+int i = 0;
+int j = 10;
+
+while(i < j) {
+printf("i = %d, j = %d\n", i, j);
+i++;
+j--;
+}
+
+6 - 
+
+a) O valor final de x será 6.
+
+b) O operador x++ primeiro usa o valor atual e depois incrementa. O último incremento ocorre mesmo quando a condição se torna falsa.
+
+c) Código equivalente:
+
+int x = 0;
+
+while(x < 5) {
+x++;
+}
+
+x++;
+
+printf("%d", x);
